@@ -33,12 +33,11 @@ body {
 .all-logo{
     display: flex;
     z-index: 999;
+    align-items: center;
 }
 
 
-.logo{
-    padding-top: 10px;
-}
+
 .logo-all-text{
     padding-left: 15px;
 }
@@ -51,6 +50,7 @@ body {
     background-size: cover;
     max-width: 100%;
     width:100% ;
+    border-radius:0 0 300px 0;
 }
 
 .banner-content{
