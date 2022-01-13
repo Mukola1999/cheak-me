@@ -27,19 +27,20 @@ body {
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
-    height: auto;
 }
 
 
 .all-logo{
     display: flex;
     position: absolute;
-    padding-left: 80px;
+    padding-left: 100px;
     padding-top: 20px;
+    z-index: 999;
 }
 
 
 .logo{
+    padding-top: 10px;
 }
 .logo-all-text{
     padding-left: 15px;
@@ -76,7 +77,7 @@ h1{
 }
 
 .logo-bg-text{
-    font-size: 30px;
+    font-size: 35px;
 }
 
 .logo-sml-text{
