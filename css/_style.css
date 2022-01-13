@@ -44,7 +44,7 @@ body {
 
 
 .banner{
-    background-image: url(../ptoto/baner.png);
+    background-image: url(../photo/baner.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -70,6 +70,7 @@ h1{
     max-width: 100%;
     display: block;
     height: auto;
+    width: 100%;
 }
 
 .logo-bg-text{
@@ -121,6 +122,74 @@ a{
     width: 100%;
     padding: 20px 0;
 }
+
+.section-info{
+    padding-top: 50px;
+    position: relative;
+}
+
+.h2-welcome{
+    text-align: center;
+    font-size: 40px;
+}
+
+.three-rectangles{
+    padding-top:50px;
+    max-width: 100%;
+}
+
+.rectangle-img{
+    padding-top:20px ;
+    padding-bottom:20px ;
+    padding-left: 20px;
+    max-width:40% ;
+    width: 100%;
+}
+
+.rectangle{
+   margin-top: 30px;
+    background-color: black;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.rectangle-text{
+    max-width: 60%;
+    width: 100%;
+    color: darkgrey;
+    text-align: center;
+}
+
+.rectangle-text-h2{
+
+    padding-top:60px;
+    font-size:40px ;
+    color: white;
+}
+
+.rectangle-text-article{
+    max-width: 90%;
+    width: 100%;
+    padding-top:40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size:20px ;
+    text-align: justify;
+}
+
+.rectangle-link{
+    color: white;
+    font-size: 16px;
+    padding-top: 40px;
+}
+
+
+
+
+
+
 
 
 
