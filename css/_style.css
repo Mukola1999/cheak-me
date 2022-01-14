@@ -89,21 +89,28 @@ h1{
 }
 
 .button {
-    width: 120px;
-    height: 60px;
-    border: 0 solid;
-    border-radius: 5%;
+    /*width: 120px;*/
+    /*height: 60px;*/
+    /*border: 0 solid;*/
+    /*border-radius: 5%;*/
+    /*background-color: green;*/
+    /*position: relative;*/
+    /*display: flex;*/
+    /*text-align: center;*/
+    /*justify-content: center;*/
+    min-width: 120px;
+    padding: 20px;
+    color: white;
     background-color: green;
+    border-radius: 10%;
+    border: 0;
+    font-size: 20px;
     cursor: pointer;
-    position: relative;
-    text-align: center;
 }
 
 .button-text {
     font-size: 20px;
-    justify-content: center;
-    display: flex;
-    padding-top: 14px;
+    margin: auto;
     color: white;
 }
 
@@ -135,7 +142,9 @@ a{
 
 .three-rectangles{
     padding-top:50px;
-    max-width: 100%;
+    max-width: 85%;
+    margin: 0 auto;
+
 }
 
 .rectangle-img{
@@ -164,26 +173,58 @@ a{
 
 .rectangle-text-h2{
 
-    padding-top:60px;
-    font-size:40px ;
+    padding-top:50px;
+    font-size:36px ;
     color: white;
 }
 
 .rectangle-text-article{
     max-width: 90%;
     width: 100%;
-    padding-top:40px;
+    padding-top:30px;
     padding-left: 20px;
     padding-right: 20px;
-    font-size:20px ;
+    font-size:18px ;
     text-align: justify;
 }
 
 .rectangle-link{
-    color: white;
     font-size: 16px;
-    padding-top: 40px;
+    padding-top: 10px;
 }
+
+.rectangle-link-decorate{
+    color: darkgrey;
+}
+
+.cont--add{
+   margin-top: 100px;
+}
+
+.footer-rectangle-1{
+    max-width: 90%;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    background: linear-gradient(to right, #00c214, #0c75c3);
+    border-radius: 5%;
+}
+.rectangle1-all-text{
+    max-width: 60%;
+    width: 100%;
+    padding-left: 100px;
+}
+.rectangle1-text1{
+    padding-top: 30px;
+    font-size:36px ;
+}
+.rectangle1-text2{
+    padding-top: 20px;
+    font-size:18px ;
+    color:lightgoldenrodyellow ;
+    padding-bottom: 30px;
+}
+
 
 
 
