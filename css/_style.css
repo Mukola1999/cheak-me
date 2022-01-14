@@ -9,7 +9,7 @@
 }
 html {
     overflow-x: hidden;
-    overflow-y:hidden;
+    /*overflow-y:hidden;*/
 }
 body {
     font-size: 16px;
@@ -190,10 +190,14 @@ a{
 }
 
 .cont--add{
-   margin-top: 100px;
+   margin-top: 170px;
+    position: relative;
 }
 
 .footer-rectangle-1{
+    position: absolute;
+    top: -70px;
+    left: 5%;
     max-width: 90%;
     width: 100%;
     height: auto;
@@ -201,7 +205,7 @@ a{
     background: linear-gradient(to right, #00c214, #0c75c3);
     border-radius: 10px;
     display: flex;
-    z-index: 100;
+   z-index: 100;
 }
 .rectangle1-all-text{
     max-width: 75%;
@@ -226,15 +230,12 @@ a{
 }
 
 .footer-rectangle-2{
-    position: absolute;
-    top: 70px;
     max-width: 100%;
     width: 100%;
     height: auto;
     background-color: black;
     padding: 150px 30px 50px 30px;
     display: flex;
-    z-index: -1;
     justify-content: space-around;
     align-items: center;
 }
