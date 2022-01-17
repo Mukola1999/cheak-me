@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+html {
+  overflow-x: hidden;
+  //background-color: blueviolet;
+}
+body {
+  font-size: 16px;
+  line-height: 1.2;
+  color: @black;
+  font-family: "Source Sans Pro", sans-serif;
+  overflow-x: hidden;
+}
+
+.container{
+  padding:0 20px;
+}
+
+.wrapper{
+  position: relative;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+h1{
+  max-width: 80%;
+  width: 100%;
+  font-size:50px ;
+  padding: 150px 0 50px 0;
+}
+
+.only-img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.color-link{
+  color:@black;
+}
+
+.color-link :hover {
+  color: plum;
+}
+
+.link{
+  align-items: center;
+  margin-left: 20px;
+}
+
+.button-link{
+  padding-top: 100px;
+  padding-bottom: 150px;
+  display: @flex;
+}
+
+.button {
+  min-width: 120px;
+  padding: 20px;
+  color: white;
+  background-color: green;
+  border-radius: 10%;
+  border: 0;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.button:hover{
+  background-color: darkgreen;
+  transition: 0.5s all;
+
+}
+
+.button-text {
+  font-size: 20px;
+  margin: auto;
+  color: white;
+}
+
+a{
+  color: white;
+}
+a:hover{
+  color: plum;
+}
+
+
+.rectangle1-button{
+  max-width: 25%;
+  margin: auto;
+}
+
+.color{
+  color: white;
+}
+
+.decoration{
+  text-decoration: none;
+}
+
+::selection{
+  background-color: aqua;
+}

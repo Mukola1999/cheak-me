@@ -1,0 +1,24 @@
+
+
+.mixin-rectangle (@flex, @black, @width,@pixel,@border-box){
+    margin-top:@pixel;
+    background-color:@black;
+    max-width: @width;
+    width:@width;
+    display: @flex;
+    padding: @pixel;
+    box-sizing: @border-box;
+}
+
+.rectangle-text(@dark-grey, @width, @max-width, @align, @pixel) {
+  max-width: @max-width;
+  width: @width;
+  color: @dark-grey;
+  text-align: @align;
+  padding-left:@pixel;
+}
+
+.photo-rectangle(@width, @max-width:40%) {
+  max-width: @max-width;
+  width:@width;
+}

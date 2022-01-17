@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "less": "^4.1.2"
+  },
+  "scripts": {
+    "less:build": "lessc .\\less\\style.less .\\css\\style.css",
+    "less:watch": "less-watch-compiler"
+  },
+  "devDependencies": {
+    "less-watch-compiler": "^1.16.3"
+  }
+}
